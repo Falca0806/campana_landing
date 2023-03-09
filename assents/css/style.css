@@ -1,0 +1,124 @@
+.container {
+    max-width: 1100px;
+}
+header {
+    background-color: #62514A;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+}
+.title-color{
+   color: white;
+}
+.btn{
+    background-color: yellow;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    width: 100px;
+}
+#row-descripcion{
+    background-image: url('https://img.freepik.com/free-photo/wooden-texture-background_23-2147986587.jpg?w=996&t=st=1678379280~exp=1678379880~hmac=0351be2f590ffcded8a364bf67f618212e4062e09edfd09872be16331022c33a');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.row{
+    margin: 0;
+
+}
+.img1{
+    width: 120px;
+    height: 100px;
+}
+#row-entradas{
+    background-image: url('https://img.freepik.com/free-photo/chocolate_23-2148148815.jpg?w=996&t=st=1678380639~exp=1678381239~hmac=ee6b0f3e64eddbb852af407ad9461f9d532162de9c8a8dee64f09425f648e799');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#row-carnes{
+    background-image: url('https://img.freepik.com/free-photo/salami-fillet-meat-wooden-board-with-copy-space_23-2148599833.jpg?w=996&t=st=1678379628~exp=1678380228~hmac=edeab04ebbb88f03f5f89153089e238227b64ae9e93b9ab23966cc7c69abc73d');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#row-pescados{
+    background-image: url('https://img.freepik.com/free-photo/frame-with-fresh-fish-condiments_23-2148290465.jpg?w=996&t=st=1678380435~exp=1678381035~hmac=d39d293875e9ca87531ab8a9089cc4786cabda87b3b44a4330d9066589f0ae4f');
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#row-postres{
+    background-image: url('https://img.freepik.com/free-photo/pink-chocolate-doughnuts-concrete-surface_114579-75029.jpg?w=996&t=st=1678380297~exp=1678380897~hmac=c90897b758085e853cbb6cf398da7916db870e967ff05298b338e08d4f7a4403');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#row-descripcion img{
+    border-radius: 30%;
+    width: 300px;
+}
+#row-entradas img{
+    border-radius: 50%;
+    width: 150px;
+}
+#row-carnes img{
+    border-radius: 50%;
+    width: 150px;
+}
+#row-pescados img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+#row-postres img{
+    border-radius: 50%;
+    width: 150px;
+}
+#row-descripcion p{
+    font-size: 15px;
+}
+#row-pescados p{
+    font-size: 15px;
+}
+.form-control{
+    border-radius: 50px;
+}
+footer{
+    background-image: url('https://img.freepik.com/free-photo/3d-grunge-background-with-dark-wooden-table_1048-11887.jpg?w=740&t=st=1678382307~exp=1678382907~hmac=e43b5208adc4a6c8280f7dfa949bf59d81cc066e335113c61abf1375b1550275');
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:992px){
+    .navbar-nav{
+        background-color: #62514A;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+nav{
+    z-index: 100;
+    font-size: 20px;
+}
+
+nav a:hover{
+    background-color: #653c10;
+    padding-left: 20px;
+}
